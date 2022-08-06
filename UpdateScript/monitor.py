@@ -24,11 +24,11 @@ def monitor_spreadsheet() -> None:
     while True:
         # Receive data from spreadsheet
         sheets_data = get_sheets_data()
-        logging.info("Received spreadsheets data")
+        logging.info("Receive spreadsheets data")
 
         # Receive dollar rate
         dollar_rate = get_dollar_rate()
-        logging.info("Received dollar rate")
+        logging.info("Receive dollar rate")
 
         # Clear orders table
         conn.cursor().execute(
