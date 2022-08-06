@@ -22,18 +22,22 @@ conn = psql.connect(config.DATABASE_URI)
 
 def monitor_spreadsheet() -> None:
     while True:
+        # Receive data from spreadsheet
         sheets_data = get_sheets_data()
         logging.info("Received spreadsheets data")
 
+        # Receive dollar rate
         dollar_rate = get_dollar_rate()
         logging.info("Received dollar rate")
 
+        # Clear orders table
         conn.cursor().execute(
             "DELETE FROM orders"
         )
         conn.commit()
         logging.info("Clear orders table")
 
+        # Fill table with new spreadsheet data
         for i, row in enumerate(sheets_data):
             delivery_date_lst = row[2].split(".")
             delivery_date_lst.reverse()
@@ -55,4 +59,5 @@ def monitor_spreadsheet() -> None:
                 time.sleep(config.TELEGRAM_TIMEOUT)
         conn.commit()
         logging.info("Finish, table orders is updated")
+
         time.sleep(config.REQUEST_TIMEOUT)
