@@ -56,5 +56,5 @@ python3 Web/main.py
 
 ### Все необходимые данные есть в репозитории (для удобной проверки, разумеется)
 
-Ссылка на копию таблицы - https://docs.google.com/spreadsheets/u/0/d/1NKughm4IIRRMi5Di57CUNgKccxIcFk5c958rfwL5TCQ/htmlview
+Ссылка на копию таблицы - https://docs.google.com/spreadsheets/u/0/d/1NKughm4IIRRMi5Di57CUNgKccxIcFk5c958rfwL5TCQ/htmlview \
 Ссылка на канал для получения уведомлений в Telegram - https://t.me/not1fy_test_channel 
