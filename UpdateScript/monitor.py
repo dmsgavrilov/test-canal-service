@@ -35,7 +35,7 @@ def monitor_spreadsheet() -> None:
             "DELETE FROM orders"
         )
         conn.commit()
-        logging.info("Clear orders table")
+        logging.info("Clear table 'orders'")
 
         # Fill table with new spreadsheet data
         for i, row in enumerate(sheets_data):
@@ -58,6 +58,6 @@ def monitor_spreadsheet() -> None:
                 send_notify(order_id)
                 time.sleep(config.TELEGRAM_TIMEOUT)
         conn.commit()
-        logging.info("Finish, table orders is updated")
+        logging.info("Finish, table 'orders' is updated")
 
         time.sleep(config.REQUEST_TIMEOUT)
