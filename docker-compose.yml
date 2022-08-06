@@ -1,0 +1,33 @@
+version: "3"
+
+volumes:
+  postgres_volume:
+
+services:
+  db:
+    build: ./DataBase
+    restart: always
+    ports:
+      - 5432:5432
+    environment:
+      - POSTGRES_PASSWORD=123
+    volumes:
+      - postgres_volume:/var/lib/postgresql/data
+
+  update_script:
+    build: ./UpdateScript
+    restart: always
+    environment:
+      - DATABASE_URI=postgres://postgres:123@db:5432
+    links:
+      - db
+
+  web_app:
+    build: ./Web
+    restart: always
+    environment:
+      - DATABASE_URI=postgres://postgres:123@db:5432
+    ports:
+      - 8000:8000
+    links:
+      - db

@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "resonant-goods-352513",
+  "private_key_id": "0acb3d7a18d545edd0fe9a596edb7cd5bffd2ea6",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDbzVBmLUEU7I3R\nEKV+ScOpS3qCR/wam5UTPYHRmMeB9yLLAN4Zbs/fKAziDOoLHqgqyqf6DgJowx7w\nuB5FoEHYymeKdxdF8Jlk5yrcHlylfqZkyeJxQpClGIwQRg9PJgPuca5S9ejk/nQZ\nlzhLZH9PGJwmJe7UWPoF8kCltxksIomWKysKh1WnFriOGKUrVBRggID8jwuvhAGP\nWFNkPifA2KOBySBBpp4rMT8u82O1wrvhm8JMlAYIHDPRDsJ6GfNtureb0zdHRMEs\ntY/xnDgzX8rgZWVX9kJexZ5QwLatypI5NIIEG/pQY5sj7TKPx9eA4fXEXaBIk/S6\n44j2MHlZAgMBAAECggEAGGx0v9nM9sh/TKkTHpiPOYdVzla13HYHx1rJC1N07cva\njaCjzUMrLYKLhe3F7uTh7llU93vpiB8QV9K5qGZxkqeRAEmR6DdfMB9gu5NTG5+a\nWS42r3ukS3gSDjfeuR6CBtOSeYzyK0nb+ED9pCD/ZXhYV4PVCTr200TTKqbREP5z\nsbjom1Nec77TvrBmXgDqfodcs9ycAneshe3SIXmmA1sq9mf761vPoWGk4Csy7Q7v\nOv0wnaC83C+N8FZ86Q2M4aw+9VmI7C6bCV5zmgJuN/Y+qflacs4XVWJazEuXQMFs\nVI8SNYJkpx4AxrArTQuhMO9tduU/51g0E1Ozj8BiwQKBgQD4fxB87Akg34PcMGrX\nzao/OOFSxAMYskNDz7Z44EqGk0OdEMtiErEIFpMUf3Ynjuu0L3Rt+Z3mIzlewd+A\nL9tB84Z5ioOV3WsCSNk0V13NXkqxmYF0J1mTTS5sxzzGi7AlZxVlVppMtEBBZEr/\ncR5esTv3KHBeZo/6VQ0u3sx5uQKBgQDicG+Ff88PL+sdfPO68taOron7vZ6ulfJN\n4pAthWjXlmMoJsP0tnhDQoKvU/jVPzuhbUowjXH48jihQ4OMqCR9AJEdWD5DgDUe\n577mW0psVIaQArMrMnlL6LVtpSr6rQ+IepLz1/XNuQL3/wkjwjxhfjOHKYB6/vhI\nj8Qp5Z1MoQKBgAfxj+ZeaUBKxN1SEuhJI8sXl2Rc7bhpYmsVhcDBcsBwjrXDpqzA\n6jXW+uap2G4VTIWbCr7FPv3vXFMiIXHolbq6/S5/dgthY51UFNVugYoiHIMm5BOB\neoSR8Az8JX43Uu8vJ2jw5sfS70bn3NnjlNP0GHWjLkxmPO4EsAIyjxjJAoGBAIvg\nsMNi5GGZVD/vBBCkGe4h25Lq2681aWy7XB0CoHUsrSwMZlgwr7G80EXGNZxlZ0yc\n2ouLlLAX0OutbQHijEe7pejerfe8pxPkTIS4OA0bWdR0FoHEuDEwG4MT2KzpYwMH\n1OdUrL7cXv0bSmYQgoQnFWWVOYzBHFaWmLLY6IaBAoGAejDiiBzCvtD688JCO4Rk\n3TGYnjbfnbX7SJl5zVqi4Vnr3FcO/LL9fanfSACdYDIo3Eq1geOMNFzOPzcC7d9J\nEh55xy0qPg4Dvbdx7cJvSVsae9R9Ls2NTmY6BP5QaOj9kQ1FvV7x36yDkzhhK9IV\nJe/fop4WyqacI0TgmZT8QE4=\n-----END PRIVATE KEY-----\n",
+  "client_email": "accer-190@resonant-goods-352513.iam.gserviceaccount.com",
+  "client_id": "104009046385872452158",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/accer-190%40resonant-goods-352513.iam.gserviceaccount.com"
+}
